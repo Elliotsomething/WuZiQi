@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAAD9D581770366C00BA8988 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAAD9D571770366C00BA8988 /* UIKit.framework */; };
+		FAAD9D5A1770366C00BA8988 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAAD9D591770366C00BA8988 /* Foundation.framework */; };
+		FAAD9D5C1770366C00BA8988 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAAD9D5B1770366C00BA8988 /* CoreGraphics.framework */; };
+		FAAD9D621770366C00BA8988 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAAD9D601770366C00BA8988 /* InfoPlist.strings */; };
+		FAAD9D641770366C00BA8988 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAD9D631770366C00BA8988 /* main.m */; };
+		FAAD9D681770366C00BA8988 /* wuziqiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAD9D671770366C00BA8988 /* wuziqiAppDelegate.m */; };
+		FAAD9D6A1770366C00BA8988 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAD9D691770366C00BA8988 /* Default.png */; };
+		FAAD9D6C1770366C00BA8988 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAD9D6B1770366C00BA8988 /* Default@2x.png */; };
+		FAAD9D6E1770366D00BA8988 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAD9D6D1770366D00BA8988 /* Default-568h@2x.png */; };
+		FAAD9D711770366D00BA8988 /* wuziqiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAD9D701770366D00BA8988 /* wuziqiViewController.m */; };
+		FAAD9D741770366D00BA8988 /* wuziqiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAAD9D721770366D00BA8988 /* wuziqiViewController.xib */; };
+		FAAD9D7C177036AD00BA8988 /* Myview.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAD9D7B177036AD00BA8988 /* Myview.m */; };
+		FAAD9D7E1770406600BA8988 /* rw.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAD9D7D1770406600BA8988 /* rw.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAAD9D541770366C00BA8988 /* WuZiQi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WuZiQi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAAD9D571770366C00BA8988 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FAAD9D591770366C00BA8988 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAAD9D5B1770366C00BA8988 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FAAD9D5F1770366C00BA8988 /* WuZiQi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WuZiQi-Info.plist"; sourceTree = "<group>"; };
+		FAAD9D611770366C00BA8988 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAAD9D631770366C00BA8988 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAAD9D651770366C00BA8988 /* WuZiQi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WuZiQi-Prefix.pch"; sourceTree = "<group>"; };
+		FAAD9D661770366C00BA8988 /* wuziqiAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wuziqiAppDelegate.h; sourceTree = "<group>"; };
+		FAAD9D671770366C00BA8988 /* wuziqiAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wuziqiAppDelegate.m; sourceTree = "<group>"; };
+		FAAD9D691770366C00BA8988 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FAAD9D6B1770366C00BA8988 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FAAD9D6D1770366D00BA8988 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FAAD9D6F1770366D00BA8988 /* wuziqiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wuziqiViewController.h; sourceTree = "<group>"; };
+		FAAD9D701770366D00BA8988 /* wuziqiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wuziqiViewController.m; sourceTree = "<group>"; };
+		FAAD9D731770366D00BA8988 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/wuziqiViewController.xib; sourceTree = "<group>"; };
+		FAAD9D7A177036AD00BA8988 /* Myview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Myview.h; sourceTree = "<group>"; };
+		FAAD9D7B177036AD00BA8988 /* Myview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Myview.m; sourceTree = "<group>"; };
+		FAAD9D7D1770406600BA8988 /* rw.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rw.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAAD9D511770366C00BA8988 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAD9D581770366C00BA8988 /* UIKit.framework in Frameworks */,
+				FAAD9D5A1770366C00BA8988 /* Foundation.framework in Frameworks */,
+				FAAD9D5C1770366C00BA8988 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAAD9D4B1770366C00BA8988 = {
+			isa = PBXGroup;
+			children = (
+				FAAD9D5D1770366C00BA8988 /* WuZiQi */,
+				FAAD9D561770366C00BA8988 /* Frameworks */,
+				FAAD9D551770366C00BA8988 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAAD9D551770366C00BA8988 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAAD9D541770366C00BA8988 /* WuZiQi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAAD9D561770366C00BA8988 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAAD9D571770366C00BA8988 /* UIKit.framework */,
+				FAAD9D591770366C00BA8988 /* Foundation.framework */,
+				FAAD9D5B1770366C00BA8988 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAAD9D5D1770366C00BA8988 /* WuZiQi */ = {
+			isa = PBXGroup;
+			children = (
+				FAAD9D7D1770406600BA8988 /* rw.jpg */,
+				FAAD9D661770366C00BA8988 /* wuziqiAppDelegate.h */,
+				FAAD9D671770366C00BA8988 /* wuziqiAppDelegate.m */,
+				FAAD9D6F1770366D00BA8988 /* wuziqiViewController.h */,
+				FAAD9D701770366D00BA8988 /* wuziqiViewController.m */,
+				FAAD9D721770366D00BA8988 /* wuziqiViewController.xib */,
+				FAAD9D7A177036AD00BA8988 /* Myview.h */,
+				FAAD9D7B177036AD00BA8988 /* Myview.m */,
+				FAAD9D5E1770366C00BA8988 /* Supporting Files */,
+			);
+			path = WuZiQi;
+			sourceTree = "<group>";
+		};
+		FAAD9D5E1770366C00BA8988 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAAD9D5F1770366C00BA8988 /* WuZiQi-Info.plist */,
+				FAAD9D601770366C00BA8988 /* InfoPlist.strings */,
+				FAAD9D631770366C00BA8988 /* main.m */,
+				FAAD9D651770366C00BA8988 /* WuZiQi-Prefix.pch */,
+				FAAD9D691770366C00BA8988 /* Default.png */,
+				FAAD9D6B1770366C00BA8988 /* Default@2x.png */,
+				FAAD9D6D1770366D00BA8988 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAAD9D531770366C00BA8988 /* WuZiQi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAAD9D771770366D00BA8988 /* Build configuration list for PBXNativeTarget "WuZiQi" */;
+			buildPhases = (
+				FAAD9D501770366C00BA8988 /* Sources */,
+				FAAD9D511770366C00BA8988 /* Frameworks */,
+				FAAD9D521770366C00BA8988 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WuZiQi;
+			productName = WuZiQi;
+			productReference = FAAD9D541770366C00BA8988 /* WuZiQi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAAD9D4C1770366C00BA8988 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = wuziqi;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "mac book";
+			};
+			buildConfigurationList = FAAD9D4F1770366C00BA8988 /* Build configuration list for PBXProject "WuZiQi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAAD9D4B1770366C00BA8988;
+			productRefGroup = FAAD9D551770366C00BA8988 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAAD9D531770366C00BA8988 /* WuZiQi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAAD9D521770366C00BA8988 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAD9D621770366C00BA8988 /* InfoPlist.strings in Resources */,
+				FAAD9D6A1770366C00BA8988 /* Default.png in Resources */,
+				FAAD9D6C1770366C00BA8988 /* Default@2x.png in Resources */,
+				FAAD9D6E1770366D00BA8988 /* Default-568h@2x.png in Resources */,
+				FAAD9D741770366D00BA8988 /* wuziqiViewController.xib in Resources */,
+				FAAD9D7E1770406600BA8988 /* rw.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAAD9D501770366C00BA8988 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAD9D641770366C00BA8988 /* main.m in Sources */,
+				FAAD9D681770366C00BA8988 /* wuziqiAppDelegate.m in Sources */,
+				FAAD9D711770366D00BA8988 /* wuziqiViewController.m in Sources */,
+				FAAD9D7C177036AD00BA8988 /* Myview.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAAD9D601770366C00BA8988 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAAD9D611770366C00BA8988 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FAAD9D721770366D00BA8988 /* wuziqiViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAAD9D731770366D00BA8988 /* en */,
+			);
+			name = wuziqiViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAAD9D751770366D00BA8988 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAAD9D761770366D00BA8988 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAAD9D781770366D00BA8988 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WuZiQi/WuZiQi-Prefix.pch";
+				INFOPLIST_FILE = "WuZiQi/WuZiQi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FAAD9D791770366D00BA8988 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WuZiQi/WuZiQi-Prefix.pch";
+				INFOPLIST_FILE = "WuZiQi/WuZiQi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAAD9D4F1770366C00BA8988 /* Build configuration list for PBXProject "WuZiQi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAD9D751770366D00BA8988 /* Debug */,
+				FAAD9D761770366D00BA8988 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAAD9D771770366D00BA8988 /* Build configuration list for PBXNativeTarget "WuZiQi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAD9D781770366D00BA8988 /* Debug */,
+				FAAD9D791770366D00BA8988 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAAD9D4C1770366C00BA8988 /* Project object */;
+}
